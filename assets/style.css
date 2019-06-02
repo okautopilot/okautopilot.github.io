@@ -1,0 +1,201 @@
+html {
+    
+    height: 100%;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.background {
+
+    background-image: url(../img/papyrus.png);
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+.header-flexbox {
+
+  display: flex;
+  max-width: 75.5%;
+  align-items: center;
+}
+
+
+
+.heading-bar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 75px;
+    border-bottom: 2px solid #cccccc;
+  }
+
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    flex-shrink: 1;
+    color: #cccccc;
+    text-decoration: none;
+    
+
+}  
+
+.heading {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 24px 4px 24px 4px;
+    width: 200px;
+    flex-shrink: 1;
+    
+}
+
+h2 {
+    color: #4aaaa5;
+    background: #ffffff;
+    font-size: 24px;
+  }
+
+
+
+.main-bio {
+    background-color: white;
+    max-width: 960px;
+    min-height: 400px;
+    margin: 5px auto;
+    margin-top: 7%;
+    border: 1px solid #dddddd;    
+
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #4aaaa5;
+    font-weight: bold;
+    position: relative;
+}
+
+.portrait {
+    float: left;
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    display: block;
+    color: #777777;
+ 
+}
+
+hr {
+    display: block;
+    padding: 0;
+    width: 95.7%;
+    border-top: 2px solid #777777;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutme {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    line-height: 18px;
+    text-align: justify;
+
+}
+
+.footer {
+    
+    background-color: #666666;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    padding-top: 3px;
+    font-size: 12px;
+    text-align: center;
+    padding: 25px 0px;
+    color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 0;
+    border-top: 8px solid #4aaaa5
+}
+
+/* Contact Section */
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa9;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+
+  max-width: 892px;
+  padding: 0px 20px 20px 20px;
+  
+}
+
+
+/* Gallery Settings */
+
+.gallery {    
+    
+    display: grid;    
+    grid-template-columns: repeat(2, 300px);    
+    grid-template-rows: repeat(3, 250px);    
+    grid-gap: 2px;
+    
+}
+
+.gallery_img {    
+    
+    width: 200px;    
+    height: 200px;    
+    object-fit: cover;
+    
+    
+    }
